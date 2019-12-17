@@ -27,6 +27,6 @@ target_link_libraries(path_test
   ${catkin_LIBRARIES}
 )
 
-cuda_add_library(test_path_cuda
-        src/sample.cu
-        )
+# cuda_add_library(test_path_cuda
+#         src/sample.cu
+#         )
